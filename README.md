@@ -15,7 +15,3 @@ In this project, we will use data provided by Motivate, a bike share system prov
 1- Washington.csv
 2- chicago.csv
 3- NewYork City.csv
-
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
