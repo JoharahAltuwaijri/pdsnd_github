@@ -4,13 +4,16 @@
 19/12/2022
 
 ### Project Title
-Bikeshare 
+Bikeshare
 
 ### Description
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+1- Washington.csv
+2- chicago.csv
+3- NewYork City.csv
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
