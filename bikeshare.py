@@ -184,11 +184,11 @@ def display_raw_data(df):
     print(df.head())
     next = 0
     while True:
-        view_raw_data = input('\nWould you like to show 5 more rows? Enter yes or no.\n')
+        view_raw_data = input('\nWould you like to show 10 more rows? Enter yes or no.\n')
         if view_raw_data.lower() != 'yes':
             return
-        next = next + 5
-        print(df.iloc[next:next+5])
+        next = next + 10
+        print(df.iloc[next:next+10])
 
 
 def main():
