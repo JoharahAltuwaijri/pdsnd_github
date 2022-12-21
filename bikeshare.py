@@ -30,7 +30,7 @@ def get_filters():
             print("Invalid Input.\n")
     month_name = ''
     while month_name.lower() not in MONTH_DATA:
-        month_name = input("\nAre you looking for a particular Month? January, February, March, April, May, June or type 'all' if you do not have any preference\n")
+        month_name = input("\nAre you looking for a particular Month? From January to June? or type 'all' if you do not have any preference\n")
         if month_name.lower() in MONTH_DATA:
            
             month = month_name.lower()
@@ -38,7 +38,7 @@ def get_filters():
             print("Invalid Input.\n")
     day_name = ''
     while day_name.lower() not in DAY_DATA:
-        day_name = input("\nAre you looking for a particular day? If so, kindly enter the day as follows: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not have any preference.\n")
+        day_name = input("\nAre you looking for a particular day? If so, kindly Enter the wanted day or type 'all' if you do not have any preference.\n")
         if day_name.lower() in DAY_DATA:
            
             day = day_name.lower()
@@ -184,11 +184,11 @@ def display_raw_data(df):
     print(df.head())
     next = 0
     while True:
-        view_raw_data = input('\nWould you like to show 5 more rows? Enter yes or no.\n')
+        view_raw_data = input('\nWould you like to show 10 more rows? Enter yes or no.\n')
         if view_raw_data.lower() != 'yes':
             return
-        next = next + 5
-        print(df.iloc[next:next+5])
+        next = next + 10
+        print(df.iloc[next:next+10])
 
 
 def main():
